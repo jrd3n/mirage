@@ -1,0 +1,12 @@
+__pycache__
+core
+libs
+modules
+scenarios
+venv
+__init__.py
+mirage.py
+
+!modules/ble_FUZZ.py
+!modules/ble_REPLAY.py
+!modules/ble_BULB.py
