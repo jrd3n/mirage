@@ -9,7 +9,7 @@ mirage.py
 
 *.py
 
-
 !modules/ble_FUZZ.py
 !modules/ble_REPLAY.py
 !modules/ble_BULB.py
+!modules/ble_GLASSES.py
