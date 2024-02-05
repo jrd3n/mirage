@@ -20,6 +20,8 @@ cd mirage
 sudo python3 setup.py install
 ```
 
+## Install the modules from this repository
+
 To install this;
 
 - [ ] write up how to install this
