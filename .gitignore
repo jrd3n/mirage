@@ -1,11 +1,14 @@
-__pycache__
-core
-libs
-modules
-scenarios
-venv
+__pycache__/    
+core/
+libs/
+# modules/
+# scenarios/
+venv/
 __init__.py
 mirage.py
+
+*.py
+
 
 !modules/ble_FUZZ.py
 !modules/ble_REPLAY.py
