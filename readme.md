@@ -6,7 +6,7 @@ Mirage can be forund here
 
 https://homepages.laas.fr/rcayre/mirage-documentation/
 
-to install mirage
+## Install mirage
 
 First of all, clone the repository :
 
