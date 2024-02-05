@@ -22,7 +22,49 @@ sudo python3 setup.py install
 
 ## Install the modules from this repository
 
-To install this;
+find the install path for mirage, for example
 
-- [ ] write up how to install this
-- [ ] ensure the replay module works
+```bash
+
+ls -lhs /usr/local/lib/python3.11/dist-packages/mirage-1.2-py3.11.egg/mirage
+
+```
+
+if the folder exists cd to the folder
+
+
+```bash 
+
+cd /usr/local/lib/python3.11/dist-packages/mirage-1.2-py3.11.egg/mirage
+
+```
+
+make a folder to do the download, download the folder
+
+```bash
+
+mkdir DEL
+cd DEL
+wget https://github.com/jrd3n/mirage_modules/archive/refs/heads/main.zip
+unzip main.zip 
+```
+
+copy the modules (if applicable)
+
+```bash
+
+cp mirage_modules-main/modules/* ../modules/
+```
+copy the scenarios (if applicable)
+
+```bash
+
+cp mirage_modules-main/scenarios/* ../scenarios/
+```
+
+house keeping
+
+```bash
+cd ..
+rm -r DEL/
+```
